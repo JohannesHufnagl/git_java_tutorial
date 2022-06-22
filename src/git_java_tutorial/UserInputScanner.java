@@ -16,5 +16,7 @@ class UserInputScanner {
         System.out.println("Username is: " + userName);  // Output user input
 
         // TODO: Read your birthday as input and print it to the console
+        String birthday = myScanner.nextLine();  // Read user input
+        System.out.println("Birthday is: " + birthday);  // Output user input
     }
 }
