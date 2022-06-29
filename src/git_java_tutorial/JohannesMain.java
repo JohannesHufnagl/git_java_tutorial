@@ -1,16 +1,11 @@
 package git_java_tutorial;
 
-import java.util.Scanner;
-
-public class Main {
+public class JohannesMain {
 
     public static void main(String[] args) {
-
-        // TODO: rename class to YournameMain
-
-
-        // TODO: First Exercise
+        
         // Write a "Hello World!" on to the console
+        System.out.println("Hello World!");
 
 
         // TODO: Second Exercise
