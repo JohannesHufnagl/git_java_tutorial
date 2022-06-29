@@ -14,17 +14,20 @@ public class JohannesMain {
         int sum;
 
         x = 10;
-        y = 7;
+        y = 8;
         sum = x + y;
 
-        
+
         // Print out the sum of the two variables
         System.out.println(sum);
 
-
-        // TODO: Fourth Exercise
+        
         // Print out "odd" if the sum is odd, and "even" if the sum is even
-
+        if (sum % 2 == 1) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
 
 
         // TODO: Fifth Exercise
