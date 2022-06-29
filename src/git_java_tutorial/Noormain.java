@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Noormain {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -14,6 +16,8 @@ public class Noormain {
         } else {
             System.out.println("odd");
         }
-    }
+        Scanner myScanner = new Scanner(System.in);  // Create a Scanner object
+        String string = myScanner.nextLine();  // Read user input
+        System.out.println(string); }
 }
 
