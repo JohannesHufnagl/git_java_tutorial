@@ -19,5 +19,8 @@ public class PranaviMain {
         } else {
             System.out.println("odd");
         }
+        Scanner myScanner = new Scanner(System.in);  // Create a Scanner object
+        String string = myScanner.nextLine();  // Read user input
+        System.out.println(string);
     }
 }
