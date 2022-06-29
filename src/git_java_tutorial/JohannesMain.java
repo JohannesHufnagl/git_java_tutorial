@@ -7,7 +7,7 @@ public class JohannesMain {
         // Write a "Hello World!" on to the console
         System.out.println("Hello World!");
 
-        
+
         // Create two integer variables an sum them up
         int x;
         int y;
@@ -17,10 +17,9 @@ public class JohannesMain {
         y = 7;
         sum = x + y;
 
-
-        // TODO: Third Exercise
+        
         // Print out the sum of the two variables
-
+        System.out.println(sum);
 
 
         // TODO: Fourth Exercise
