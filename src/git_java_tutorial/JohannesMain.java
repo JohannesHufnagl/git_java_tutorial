@@ -3,14 +3,19 @@ package git_java_tutorial;
 public class JohannesMain {
 
     public static void main(String[] args) {
-        
+
         // Write a "Hello World!" on to the console
         System.out.println("Hello World!");
 
-
-        // TODO: Second Exercise
+        
         // Create two integer variables an sum them up
+        int x;
+        int y;
+        int sum;
 
+        x = 10;
+        y = 7;
+        sum = x + y;
 
 
         // TODO: Third Exercise
