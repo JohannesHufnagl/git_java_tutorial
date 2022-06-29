@@ -1,5 +1,7 @@
 package git_java_tutorial;
 
+import java.util.Scanner;
+
 public class JohannesMain {
 
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class JohannesMain {
         // Print out the sum of the two variables
         System.out.println(sum);
 
-        
+
         // Print out "odd" if the sum is odd, and "even" if the sum is even
         if (sum % 2 == 1) {
             System.out.println("even");
@@ -29,9 +31,11 @@ public class JohannesMain {
             System.out.println("odd");
         }
 
-
-        // TODO: Fifth Exercise
+        
         // use the scanner to read in a String and print it out again
+        Scanner myScanner = new Scanner(System.in);  // Create a Scanner object
+        String string = myScanner.nextLine();  // Read user input
+        System.out.println(string);
 
     }
 }
