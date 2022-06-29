@@ -5,28 +5,31 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        System.out.println("Hello, git");
-        System.out.println("----------");
-        System.out.println("Hello SSE");
 
-        final int NUM_FACTS = 10;
-        for (int i = 0; i < NUM_FACTS; i++) {
-            System.out.println(i + "! is " + factorial(i));
-        }
+        // TODO: rename class to YournameMain
 
-        Scanner s = new Scanner(System.in);
-        System.out.print( "Enter your name: "  );
-        String name = s.nextLine();
-        System.out.println( "Hello " + name + "!" );
 
-        System.out.println("Hello CSE Department");
-    }
+        // TODO: First Exercise
+        // Write a "Hello World!" on to the console
 
-    public static int factorial(int n) {
-        int result = 1;
-        for (int i = 2; i <= n; i++)
-            result *= i;
-        return result;
+
+        // TODO: Second Exercise
+        // Create two integer variables an sum them up
+
+
+
+        // TODO: Third Exercise
+        // Print out the sum of the two variables
+
+
+
+        // TODO: Fourth Exercise
+        // Print out "odd" if the sum is odd, and "even" if the sum is even
+
+
+
+        // TODO: Fifth Exercise
+        // use the scanner to read in a String and print it out again
+
     }
 }
